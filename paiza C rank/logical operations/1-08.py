@@ -14,7 +14,7 @@ else:
 a, b = map(int, input().split())
 
 c = a & b　　　　#&はビット演算。　例：3&6=2
-s = a ^ b
+s = a ^ b　　　　#XOR
 
 print(c, s)
 

@@ -14,4 +14,4 @@ ans = [C] * N
 for i in range(Q):
     ans[n[i]] = c[i]
 
-print("".join(ans))   #種類.join()    (リスト)ansにはいってる中身をくっつける。",".join([123])であれば1,2,3となる
+print("".join(ans))   #種類.join()    文字列リストを結合。例：",".join([123])であれば1,2,3となる

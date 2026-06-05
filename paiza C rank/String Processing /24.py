@@ -1,6 +1,6 @@
 N = int(input())
 Q = int(input())
-n = [0] * Q
+n = [0] * Q　　　　#０をQ個並べたリストを作成
 c = [""] * Q
 
 for i in range(Q):

@@ -1,9 +1,9 @@
-class PersonalComputer:
+class PersonalComputer:   #最初は大文字
     def __init__(self, ram, storage):
         self.ram = ram
         self.storage = storage
 
-    # 以下にコードを記述
+    
     def ram_expansion(self,a):
          self.ram += a
 

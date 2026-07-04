@@ -16,7 +16,7 @@ for i in range(n):
 for _ in range(k):
     a, new_name = input().split()
     a = int(a)
-    roster[a - 1].name = new_name
+    roster[a - 1].name = new_name  #.nameでデータの中からnameを指定してその中身ををnew_nameにおきかえる。
 
 
 for stu in roster:
